@@ -1,5 +1,5 @@
 @echo off
-
+linhtinh
 cls
 
 pushd %~dp0
