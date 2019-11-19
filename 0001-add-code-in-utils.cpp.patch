@@ -1,0 +1,26 @@
+From 5d00dde2f754f78904f609a4d10d9b288c18b01d Mon Sep 17 00:00:00 2001
+From: Nguyen Van Linh <you@example.com>
+Date: Tue, 19 Nov 2019 11:21:03 +0700
+Subject: [PATCH] add code in utils.cpp
+
+---
+ sources/Utils.cpp | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/sources/Utils.cpp b/sources/Utils.cpp
+index 4db3128..040d799 100644
+--- a/sources/Utils.cpp
++++ b/sources/Utils.cpp
+@@ -39,4 +39,8 @@ int Utils::Random(int min, int max)
+ {
+ 	int random = rand() % max + min;
+ 	return random;
++}
++int Add(int a, int b)
++{
++return a + b;
+ }
+\ No newline at end of file
+-- 
+2.23.0.windows.1
+
