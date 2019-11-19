@@ -1,0 +1,6 @@
+[submodule "tools"]
+	path = tools
+	url = https://github.com/DadTraining/AuroraGT.git
+[submodule "too"]
+	path = too
+	url = https://github.com/DadTraining/AuroraGT.git
